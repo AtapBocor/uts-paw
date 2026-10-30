@@ -1,36 +1,50 @@
+
 import { Route, Routes } from 'react-router-dom'
 import mahasiswa from '../mahasiswa.json'
 
-// Titik awal ujian. Baca soal lengkap di https://uts-paw.mhabibalgifari.web.id/soal
-// dan contoh setiap kode yang diminta di https://uts-paw.mhabibalgifari.web.id/contoh
-// Rute wajib: /, /koleksi, /koleksi/:id, /tambah, /statistik, /tentang, dan *.
-// Provider Context diletakkan di dalam komponen App ini.
+import { KoleksiProvider } from './context/KoleksiProvider.jsx'
+import Layout from './components/Layout.jsx'
+
+import Koleksi from './Pages/Koleksi.jsx'
+import Detail from './Pages/Detail.jsx'
+import Tambah from './Pages/Tambah.jsx'
+import Statistik from './Pages/Statistik.jsx'
+import Tentang from './Pages/Tentang.jsx'
 
 function Beranda() {
   return (
-    <main>
-      <h1>Ujian Tengah Semester Pengembangan Aplikasi Web</h1>
+    <section>
+      <h1>Destinasi Wisata Lampung</h1>
       <p>
         {mahasiswa.nama || 'Nama belum diisi'} ({mahasiswa.nim || 'NIM belum diisi'})
       </p>
-    </main>
+    </section>
   )
 }
 
 function TidakDitemukan() {
   return (
-    <main>
+    <section>
       <h1>404</h1>
       <p>Halaman tidak ditemukan.</p>
-    </main>
+    </section>
   )
 }
 
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Beranda />} />
-      <Route path="*" element={<TidakDitemukan />} />
-    </Routes>
+    <KoleksiProvider>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Beranda />} />
+          <Route path="/koleksi" element={<Koleksi />} />
+          <Route path="/koleksi/:id" element={<Detail />} />
+          <Route path="/tambah" element={<Tambah />} />
+          <Route path="/statistik" element={<Statistik />} />
+          <Route path="/tentang" element={<Tentang />} />
+          <Route path="*" element={<TidakDitemukan />} />
+        </Route>
+      </Routes>
+    </KoleksiProvider>
   )
 }

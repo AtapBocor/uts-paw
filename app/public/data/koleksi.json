@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Taman Nasional Way Kambas",
+    "kategori": "Wisata Konservasi",
+    "kabupaten": "Lampung Timur",
+    "hargaTiket": 20000,
+    "jamBuka": "08.00 - 18.00 WIB"
+  },
+  {
+    "id": "2",
+    "judul": "The Nice Park Lampung",
+    "kategori": "Rekreasi Keluarga",
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": 25000,
+    "jamBuka": "09.00 - 18.00 WIB"
+  },
+  {
+    "id": "3",
+    "judul": "Navara City Park",
+    "kategori": "Rekreasi Keluarga",
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": 50000,
+    "jamBuka": "Weekday: 10.00 - 20.00 WIB | Weekend: 07.00 - 22.00 WIB"
+  },
+  {
+    "id": "4",
+    "judul": "Lembah Hijau",
+    "kategori": "Rekreasi Keluarga",
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": 15000,
+    "jamBuka": "08.00 - 16.00 WIB"
+  },
+  {
+    "id": "5",
+    "judul": "Menara Siger",
+    "kategori": "Landmark & Wisata Budaya",
+    "kabupaten": "Lampung Selatan",
+    "hargaTiket": 15000,
+    "jamBuka": "24 Jam"
+  },
+  {
+    "id": "6",
+    "judul": "Puncak Mas",
+    "kategori": "Rekreasi Keluarga",
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": 20000,
+    "jamBuka": "08.00 - 22.00 WIB"
+  },
+  {
+    "id": "7",
+    "judul": "Wira Garden",
+    "kategori": "Rekreasi Keluarga",
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": 15000,
+    "jamBuka": "08.00 - 17.00 WIB"
+  },
+  {
+    "id": "8",
+    "judul": "Air Terjun Way Lalaan",
+    "kategori": "Wisata Alam Air Terjun",
+    "kabupaten": "Tanggamus",
+    "hargaTiket": 10000,
+    "jamBuka": "09.00 - 17.00 WIB"
+  },
+  {
+    "id": "9",
+    "judul": "Gunung Seminung",
+    "kategori": "Wisata Alam / Gunung",
+    "kabupaten": "Lampung Barat",
+    "hargaTiket": 15000,
+    "jamBuka": "24 Jam"
+  },
+  {
+    "id": "10",
+    "judul": "Gunung Pesawaran",
+    "kategori": "Wisata Alam / Gunung",
+    "kabupaten": "Pesawaran",
+    "hargaTiket": 20000,
+    "jamBuka": "06.00 - 18.00 WIB"
   }
 ]
