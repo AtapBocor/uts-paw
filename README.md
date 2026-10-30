@@ -46,6 +46,10 @@ Tema: Destinasi Wisata Lampung
 Deployment: https://AtapBocor.github.io/uts-paw/
 
 ![Tangkapan layar beranda](Docs/Screenshot%202026-10-30%20225027.png)
+![Tangkapan layar Koleksi](Docs/Screenshot%202026-10-30%20232009.png)
+![Tangkapan layar Tambah ](Docs/Screenshot%202026-10-30%20232009.png)
+![Tangkapan layar Statistik](Docs/Screenshot%202026-10-30%20232026.png)
+![Tangkapan layar Tentang](Docs/Screenshot%202026-10-30%20232032.png)
 
 ## Fitur
 
