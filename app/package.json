@@ -1,3 +1,4 @@
+
 {
   "name": "uts-paw-app",
   "private": true,
@@ -6,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "node -e \"require('fs').copyFileSync('dist/index.html', 'dist/404.html')\"",
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "vitest run",
